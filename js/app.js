@@ -8,7 +8,7 @@ $('nav').innerHTML = groups.map(g => '<h2>' + g + '</h2><ul>' +
 let cur;
 function show() {
   cur = C.find(c => c.id == location.hash.slice(1)) || C[0];
-  document.title = cur.t + ' - CalcHub';
+  document.title = cur.t + ' - QuickCalcs';
   $('t').textContent = cur.t;
   $('d').textContent = cur.d;
   $('n').textContent = cur.N || '';
