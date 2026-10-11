@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CalcHub - Free Online Calculators</title>
+<meta name="description" content="Free online calculators: EMI, SIP, GST, income tax, BMI, age, percentage, unit converter and more.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to calculator</a>
+<header>
+  <h1>CalcHub</h1>
+  <p>Free calculators for money, health, dates and everyday maths.</p>
+</header>
+<div class="wrap">
+  <nav id="nav" aria-label="Calculators"></nav>
+  <main id="main" tabindex="-1">
+    <h2 id="t"></h2>
+    <p class="d" id="d"></p>
+    <form id="f"></form>
+    <div id="r" role="status"></div>
+    <p class="note" id="n"></p>
+  </main>
+</div>
+<footer>Results are estimates for general information only and are not financial, tax or medical advice.</footer>
+
+<script src="js/utils.js"></script>
+<script src="js/calculators/finance.js"></script>
+<script src="js/calculators/health.js"></script>
+<script src="js/calculators/datetime.js"></script>
+<script src="js/calculators/everyday.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
