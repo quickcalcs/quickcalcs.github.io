@@ -1,4 +1,4 @@
-# CalcHub
+# QuickCalcs
 
 A free multi-calculator website built with plain HTML, CSS and JavaScript. No install and no build step.
 
